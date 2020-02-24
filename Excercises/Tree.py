@@ -7,8 +7,8 @@ picture = [
     [0,0,0,1,0,0,0],
 ]
 
-for i in picture:
-    for pixel in i:
+for row in picture:
+    for pixel in row:
         if pixel == 0:
             print(' ', end='')
         else:
