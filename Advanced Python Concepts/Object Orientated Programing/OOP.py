@@ -15,4 +15,4 @@ class PlayerCharacter:
 
 player1 = PlayerCharacter('Lee', 38)
 print(player1.membership)
-player1.Run()
+
