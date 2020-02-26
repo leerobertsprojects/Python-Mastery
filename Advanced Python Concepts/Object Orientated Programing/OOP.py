@@ -10,9 +10,11 @@ class PlayerCharacter:
         self.age = age
 
     def Run(self):
-        print(f'Run {self.name}')
+        return self
 
 
 player1 = PlayerCharacter('Lee', 38)
-print(player1.membership)
+print(player1.Run())
+print(dir(player1))
+
 
