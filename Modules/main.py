@@ -1,6 +1,6 @@
-import utility
+from packages.utility import *
 
-print(utility.multiply(6, 4))
+print((6, 4))
 
-print(utility.divide(10, 7))
+print(divide(10, 7))
 
