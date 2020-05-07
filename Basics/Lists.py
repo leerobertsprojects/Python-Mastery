@@ -41,4 +41,3 @@ sentence = ' '.join(str(basket))
 print(sentence)
 # List Unpacking
 
-a,b,c = 
