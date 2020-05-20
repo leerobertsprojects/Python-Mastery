@@ -34,7 +34,7 @@ def get_price():
 
 while True:
     get_price()
-    sleep(3600)
+    sleep(10)
 
 
 
